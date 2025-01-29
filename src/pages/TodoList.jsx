@@ -45,7 +45,6 @@ export default function TodoList() {
   function handleKeyDown(e) {
     if (e.key === "Enter") {
       addTask();
-      // input.current.value = "";
     }
   }
   return (
